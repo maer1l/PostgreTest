@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "PostreSQL";
+}
+
+<table id="employeesTable" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Title</th>
+            <th>Country</th>
+            <th>Address</th>
+            <th>PhotoPath</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<input type="button" id="show" value="Show" />
+<button class='btn-link js-create' onclick="window.location.replace('/Home/AddEmployee')">Create</button>
+
+<script>
+    //$("#show").click(function (e) {
+    function show(){
+        $.ajax({
+            url: '/api/Employees',
+            method: 'GET',
+            dataType: 'JSON',
+            contentType: 'application/json',
+            cache: false,
+            processData: false,
+            success: function (data){
+                let table = $('#employeesTable');
+                table.find('tbody tr').remove();
+
+                data.forEach(function(employee){
+                    table.append("<tr>" +
+                    "<td>" + employee.firstName + "</td>" +
+                    "<td>" + employee.lastName + "</td>" +
+                    "<td>" + employee.title + "</td>" +
+                    "<td>" + employee.country + "</td>" +
+                    "<td>" + employee.address + "</td>" +
+                    "<td>" + employee.photoPath + "</td>" +
+                    "<td><button class='btn-link js-edit' data-EmployeeId=" + employee.employeeId + ">Edit</button>&nbsp;<button class='btn-link js-delete' data-EmployeeId=" + employee.employeeId + ">Delete</button></td></tr>");
+                });
+            },
+            error: function(xhr, status, error) {
+                alert("Error: " + xhr.status + " | " + xhr.responseText);
+                console.log(xhr);
+            }
+        })
+    }//);
+
+    show();
+
+    $("#employeesTable").on("click", ".js-edit", function () {
+        let button = $(this)
+        window.location.href = '/Home/EditEmployee/' + button.attr("data-EmployeeId");
+    });
+</script>

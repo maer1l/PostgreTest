@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Add employee";
+}
+<div class="form-group">
+    <input type="text" id="FirstName" placeholder="enter first name" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="text" id="LastName" placeholder="enter last name" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="text" id="Title" placeholder="enter title" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="text" id="Country" placeholder="enter country" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="text" id="Address" placeholder="enter address" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="text" id="PhotoPath" placeholder="enter photopath" class="form-control" />
+</div>
+
+<div class="form-group">
+    <input type="file" id="file" class="form-control" />
+</div>
+
+<input type="button" id="create" value="Create" />
+
+<script>
+    $('#create').click(function (e) {
+        let firstName = $('#FirstName').val();
+        let lastName = $('#LastName').val();
+        let title = $('#Title').val();
+        let country = $('#Country').val();
+        let address = $('#Address').val();
+        let photoPath = $('#PhotoPath').val();
+        
+        let jsonData = JSON.stringify({'firstName': firstName, 'lastName': lastName, 'title': title, 'country': country, 'address': address, 'photoPath': photoPath});
+        $.ajax({
+            url: '/api/Employees',
+            method: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: jsonData,
+            cache: false,
+            processData: false,
+            success: function (data) {
+                window.location.replace('/Home/Employees');
+            }
+        })
+    });
+</script>
