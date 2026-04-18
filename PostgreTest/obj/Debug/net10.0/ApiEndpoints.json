@@ -28,14 +28,209 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
+        "Name": "employee.EmployeeId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.TitleOfCourtesy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.BirthDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.HireDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Region",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.PostalCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Country",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.HomePhone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Extension",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Photo",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsTo",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.PhotoPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.InverseReportsToNavigation",
+        "Type": "System.Collections.Generic.ICollection\u00601[[PostgreTest.Models.Employee, PostgreTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.EmployeeId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.TitleOfCourtesy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.BirthDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.HireDate",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Region",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.PostalCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Country",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.HomePhone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Extension",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Photo",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.ReportsTo",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.PhotoPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.InverseReportsToNavigation",
+        "Type": "System.Collections.Generic.ICollection\u00601[[PostgreTest.Models.Employee, PostgreTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "employee.ReportsToNavigation.ReportsToNavigation",
         "Type": "PostgreTest.Models.Employee",
-        "IsRequired": true
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "PostgreTest.Models.Employee",
+        "Type": "PostgreTest.ViewModels.EmplyeeViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

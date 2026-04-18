@@ -16,32 +16,42 @@
 <div class="form-group">
     <input type="text" id="Address" placeholder="enter address" class="form-control" />
 </div>
-<div class="form-group">
+@* <div class="form-group">
     <input type="text" id="PhotoPath" placeholder="enter photopath" class="form-control" />
-</div>
+</div> *@
 
 <div class="form-group">
     <input type="file" id="file" class="form-control" />
 </div>
 
-<input type="button" id="create" value="Create" />
+<input type="button" id="create" value="Create" accept=".png, .gif, .jpg, .jpeg, .bmp, .webp, .avif, .svg"/>
 
 <script>
     $('#create').click(function (e) {
-        let firstName = $('#FirstName').val();
-        let lastName = $('#LastName').val();
-        let title = $('#Title').val();
-        let country = $('#Country').val();
-        let address = $('#Address').val();
-        let photoPath = $('#PhotoPath').val();
+        let input = document.getElementById("file");
+        let file = input.files;
+        let fileData = new FormData();
+        fileData.append("file", file[0]);
+        fileData.append("employee.FirstName", $('#FirstName').val() == '' ? 'Arcadiy' : $('#FirstName').val());
+        fileData.append("employee.LastName", $('#LastName').val() == '' ? 'Paravozov' : $('#LastName').val());
+        fileData.append("employee.Title", $('#Title').val() == '' ? 'The Count of Monte Cristo' : $('#Title').val());
+        fileData.append("employee.Country", $('#Country').val() == '' ? 'France' : $('#Country').val());
+        fileData.append("employee.Address", $('#Address').val() == '' ? 'Corte st. Pobedy h. 10' : $('#Address').val());
+
+        // let firstName = $('#FirstName').val();
+        // let lastName = $('#LastName').val();
+        // let title = $('#Title').val();
+        // let country = $('#Country').val();
+        // let address = $('#Address').val();
+        // let photoPath = $('#PhotoPath').val();
         
-        let jsonData = JSON.stringify({'firstName': firstName, 'lastName': lastName, 'title': title, 'country': country, 'address': address, 'photoPath': photoPath});
+        // let jsonData = JSON.stringify({'firstName': firstName, 'lastName': lastName, 'title': title, 'country': country, 'address': address, 'photoPath': photoPath});
         $.ajax({
             url: '/api/Employees',
             method: 'post',
             dataType: 'json',
-            contentType: 'application/json',
-            data: jsonData,
+            contentType: false, // 'application/json'
+            data: fileData, // jsonData
             cache: false,
             processData: false,
             success: function (data) {

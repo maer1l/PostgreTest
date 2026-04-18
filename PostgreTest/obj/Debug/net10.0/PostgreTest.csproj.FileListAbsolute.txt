@@ -303,3 +303,4 @@ D:\Шаг\web\aspnet\webapi\cw\PostgreTest\PostgreTest\bin\Debug\net10.0\ru\Micr
 D:\Шаг\web\aspnet\webapi\cw\PostgreTest\PostgreTest\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Шаг\web\aspnet\webapi\cw\PostgreTest\PostgreTest\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Шаг\web\aspnet\webapi\cw\PostgreTest\PostgreTest\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Шаг\web\aspnet\webapi\cw\PostgreTest\PostgreTest\obj\Debug\net10.0\PostgreTest.sourcelink.json

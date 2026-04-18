@@ -40,7 +40,7 @@
                     "<td>" + employee.title + "</td>" +
                     "<td>" + employee.country + "</td>" +
                     "<td>" + employee.address + "</td>" +
-                    "<td>" + employee.photoPath + "</td>" +
+                    "<td><img src='" + employee.photoPath + "' style='width:80px;height:80px;'/></td>" +
                     "<td><button class='btn-link js-edit' data-EmployeeId=" + employee.employeeId + ">Edit</button>&nbsp;<button class='btn-link js-delete' data-EmployeeId=" + employee.employeeId + ">Delete</button></td></tr>");
                 });
             },
@@ -56,5 +56,27 @@
     $("#employeesTable").on("click", ".js-edit", function () {
         let button = $(this)
         window.location.href = '/Home/EditEmployee/' + button.attr("data-EmployeeId");
+    });
+
+    $("#employeesTable").on("click", ".js-delete", function () {
+        var button = $(this);
+
+        //if (confirm("Are you sure you want to delete this author?"))
+        //{
+            $.ajax({
+                url: "/api/Employees/" + button.attr("data-EmployeeId"),
+                method: "DELETE",
+                success: function () {
+
+                    // получить по кнопке удаляемой строки саму удаляемую строку
+                    var row = button[0].parentNode.parentNode;
+
+                    // удалить строку из таблицы
+                    row.parentNode.removeChild(row);
+                }
+            }).fail(function () {
+                alert('fail');
+            })
+        //}
     });
 </script>

@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\api\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\api\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\postgretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\postgretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,6 +21,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\views\\home\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\viewmodels\\emplyeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\viewmodels\\emplyeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\postgretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|solutionrelative:postgretest\\postgretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE83064-C1E6-D0B9-05DA-BA5349D0FF55}|PostgreTest\\PostgreTest.csproj|d:\\\u0448\u0430\u0433\\web\\aspnet\\webapi\\cw\\postgretest\\postgretest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,11 +66,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "EmplyeeViewModel.cs",
+              "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\ViewModels\\EmplyeeViewModel.cs",
+              "RelativeDocumentMoniker": "PostgreTest\\ViewModels\\EmplyeeViewModel.cs",
+              "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\ViewModels\\EmplyeeViewModel.cs",
+              "RelativeToolTip": "PostgreTest\\ViewModels\\EmplyeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T17:43:05.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "PostgreTest\\Models\\ErrorViewModel.cs",
@@ -74,16 +95,11 @@
               "RelativeToolTip": "PostgreTest\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T19:43:16.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "WhenOpened": "2026-04-17T19:43:16.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EditEmployee.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\EditEmployee.cshtml",
               "RelativeDocumentMoniker": "PostgreTest\\Views\\Home\\EditEmployee.cshtml",
@@ -96,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddEmployee.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\AddEmployee.cshtml",
               "RelativeDocumentMoniker": "PostgreTest\\Views\\Home\\AddEmployee.cshtml",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\AddEmployee.cshtml",
               "RelativeToolTip": "PostgreTest\\Views\\Home\\AddEmployee.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-17T06:44:40.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PostgreTest.csproj",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\PostgreTest.csproj",
               "RelativeDocumentMoniker": "PostgreTest\\PostgreTest.csproj",
@@ -121,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PostgreTest\\Views\\Shared\\_Layout.cshtml",
@@ -129,37 +145,38 @@
               "RelativeToolTip": "PostgreTest\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T06:10:45.751Z"
+              "WhenOpened": "2026-04-17T06:10:45.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "PostgreTest\\Models\\Employee.cs",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Models\\Employee.cs",
               "RelativeToolTip": "PostgreTest\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T06:06:41.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Employees.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\Employees.cshtml",
               "RelativeDocumentMoniker": "PostgreTest\\Views\\Home\\Employees.cshtml",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\Employees.cshtml",
               "RelativeToolTip": "PostgreTest\\Views\\Home\\Employees.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwD0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-17T06:05:22.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PostgreTest\\Controllers\\HomeController.cs",
@@ -172,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PostgreTest\\Views\\Home\\Index.cshtml",
@@ -180,24 +197,25 @@
               "RelativeToolTip": "PostgreTest\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T06:04:18.127Z"
+              "WhenOpened": "2026-04-17T06:04:18.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\API\\EmployeesController.cs",
               "RelativeDocumentMoniker": "PostgreTest\\API\\EmployeesController.cs",
               "ToolTip": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\API\\EmployeesController.cs",
               "RelativeToolTip": "PostgreTest\\API\\EmployeesController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwDEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T05:55:31.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NorthwindContext.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Data\\NorthwindContext.cs",
               "RelativeDocumentMoniker": "PostgreTest\\Data\\NorthwindContext.cs",
@@ -210,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\appsettings.json",
               "RelativeDocumentMoniker": "PostgreTest\\appsettings.json",
@@ -222,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0428\u0430\u0433\\web\\aspnet\\webapi\\cw\\PostgreTest\\PostgreTest\\Program.cs",
               "RelativeDocumentMoniker": "PostgreTest\\Program.cs",
